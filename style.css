@@ -35,17 +35,16 @@ margin-left: 10.3%;
 }
 
 
-.output {
-  grid-column: 1 / -1;
-  background-color: linen;
-  border-radius: 2px;
+textarea {
   
-  display: flex;
-  align-items: flex-end;
-  justify-content: space-around;
-  flex-direction: column;
+  border: none;
+  background-color: #fffcf5;
+  
   padding: 10px;
   width: 211px;
   height: 70px;
-  margin-left: 10.5%;
+  margin-left: 11.2% !important;
+  resize: none !important;
+  text-align: end;
  }
+
